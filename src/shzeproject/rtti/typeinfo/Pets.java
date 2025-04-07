@@ -1,20 +1,20 @@
 package shzeproject.rtti.typeinfo;
 
 import java.util.List;
-import shzeproject.rtti.typeinfo.pets.Pet;
+import shzeproject.rtti.typeinfo.pets.IPet;
 
 public class Pets {
-    private static final Creator<Pet> CREATOR = new RegFabricPetCreator();
+    private static final Creator<IPet> CREATOR = new RegFabricPetCreator();
 
-    public static Pet randomPet(){
+    public static IPet randomPet(){
         return CREATOR.randomCreate();
     }
 
-    public static List<Pet> createPetList(int size){
+    public static List<IPet> createPetList(int size){
         return CREATOR.createObjectList(size);
     }
 
-    public static Pet[] createPetArray(int size){
+    public static IPet[] createPetArray(int size){
         return CREATOR.createObjectArray(size);
     }
 }

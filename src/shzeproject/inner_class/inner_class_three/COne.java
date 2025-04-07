@@ -1,7 +1,5 @@
 package shzeproject.inner_class.inner_class_three;
 
-import java.lang.classfile.Superclass;
-
 public class COne {
     private String str;
     private void stringMethod(){

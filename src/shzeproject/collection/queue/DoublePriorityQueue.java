@@ -18,7 +18,6 @@ public class DoublePriorityQueue {
             if(number != null){
                 System.out.println(number);
             }
-            \
         }
     }
 }

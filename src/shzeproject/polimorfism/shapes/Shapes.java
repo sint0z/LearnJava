@@ -1,7 +1,7 @@
 package shzeproject.polimorfism.shapes;
 
 public class Shapes {
-    private static ShapeFabric shapeFabric = new ShapeFabric();
+    private static ShapeFabric shapeFabric = new ShapeFabric(10);
 
     public static void main(String[] args) {
         Shape[] shapes = new Shape[10];

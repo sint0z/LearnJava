@@ -1,8 +1,6 @@
 package shzeproject.polimorfism.shapes;
 
-import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Map;
 import java.util.Random;
 
 public class ShapeFabric implements Iterable<Shape> {
@@ -46,7 +44,5 @@ public class ShapeFabric implements Iterable<Shape> {
         for(Shape shape: new ShapeFabric(6)){
             shape.draw();
         }
-
-        HashMap
     }
 }

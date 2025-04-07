@@ -9,5 +9,6 @@
         "shzeproject",
         "аеёиоуыэюя"
     ],
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.dependency.packagePresentation": "hierarchical"
 }

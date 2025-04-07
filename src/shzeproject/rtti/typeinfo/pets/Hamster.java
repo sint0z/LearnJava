@@ -1,6 +1,5 @@
 package shzeproject.rtti.typeinfo.pets;
 
-import shzeproject.rtti.typeinfo.Factory;
 
 public class Hamster extends Rodent{
 

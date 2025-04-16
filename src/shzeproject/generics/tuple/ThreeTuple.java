@@ -1,6 +1,6 @@
 package shzeproject.generics.tuple;
 
-public class ThreeTuple<A,B,C> extends Tuple<A,B> {
+public class ThreeTuple<A,B,C> extends TupleTwo<A,B> {
     public final C obj;
     public ThreeTuple(A a, B b, C c) {
         super(a, b);

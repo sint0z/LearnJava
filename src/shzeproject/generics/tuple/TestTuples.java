@@ -10,8 +10,8 @@ import shzeproject.rtti.typeinfo.pets.Pet;
 
 public class TestTuples {
 
-    static Tuple<String, Integer> twoTuple(){
-        return new Tuple<>("Two", 2);
+    static TupleTwo<String, Integer> twoTuple(){
+        return new TupleTwo<>("Two", 2);
     }
     
     static SixTuple<String, Integer, Integer, Integer, IPet, Integer> sixTuple(){
@@ -19,7 +19,7 @@ public class TestTuples {
     }
 
     public static void main(String[] args) {
-        Tuple<String, Integer> tuple = twoTuple();
+        TupleTwo<String, Integer> tuple = twoTuple();
         System.out.println(tuple);
         // tuple.obj1 = "Three"; -> произойдет ошибка компиляции т.к поле final
         System.out.println(sixTuple());

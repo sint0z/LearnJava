@@ -24,7 +24,5 @@ public class LittleFish extends Fish{
     public String toString() {
         return super.toString() + "[ " + id + " ]";
     }
-
     
-
 }

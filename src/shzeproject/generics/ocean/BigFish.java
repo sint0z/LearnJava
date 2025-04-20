@@ -18,7 +18,7 @@ public class BigFish extends Fish{
     }
 
     public static Generator<BigFish> generator(){
-        return () -> new BigFish();
+        return BigFish::new;
     }
 
     public void clearStomach(){

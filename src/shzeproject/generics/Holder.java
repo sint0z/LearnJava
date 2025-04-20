@@ -3,6 +3,8 @@ package shzeproject.generics;
 import shzeproject.rtti.typeinfo.Pets;
 import shzeproject.rtti.typeinfo.pets.IPet;
 
+import java.util.ArrayList;
+
 public class Holder<T> {
     private T obj;
 

@@ -32,7 +32,7 @@ public class CovariantArrays {
         * В данном случае List<Number> - ожидает объект со элементами, Number или производными,
         * но мы присваиваем ему объект ArrayList<Integer> - c элементами Integer,
         * поэтому List<Number> может содержать объекты именно типа Number или его подклассов
-        * но при этом он не является суперклассом для списков с более узкими типами (ArrayList<Integer>)
+        * но при этом он не является супер классом для списков с более узкими типами (ArrayList<Integer>)
         * */
 
         List<? extends Number>  numbersList = intList;

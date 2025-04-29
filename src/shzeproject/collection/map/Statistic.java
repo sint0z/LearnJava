@@ -28,8 +28,7 @@ public class Statistic {
         for(int number = 0; number < 10; number++ ){
             for(int i = 0; i < 1000000; i++){
                 int r = random.nextInt(20);
-                Integer freq = map.get(r);
-                map.put(r, map.getOrDefault(freq, 0) + 1);
+                map.compute(r, (k, freq) -> map.getOrDefault(freq, 0) + 1);
 
             }
             test(map, number);

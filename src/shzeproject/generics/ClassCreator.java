@@ -55,8 +55,7 @@ public class ClassCreator<T> {
       }
 
       if(targetConstructor == null){
-         List<String> errArgument = Arrays.asList(arguments)
-                                          .stream()
+         List<String> errArgument = Arrays.stream(arguments)
                                           .map(el -> el.getClass().getSimpleName())
                                           .toList();
          throw new RuntimeException("Type is not exist: " + errArgument );

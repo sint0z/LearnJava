@@ -1,6 +1,7 @@
 package shzeproject.generics.problems.genericcast;
 
 public class FixSizeStack<T> {
+
     private int index = 0;
     private final Object[] objects;
 

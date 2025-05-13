@@ -16,6 +16,6 @@ public class Coffee {
         WithDecorativeFoam withDecorativeFoam = new WithDecorativeFoam(new WithChocolate(new Coffee()));
         int sizeFoam = withDecorativeFoam.getSize();
         WithChocolate withChocolate = new WithChocolate(new WithCaramel(new Coffee()));
-    //  withChocolate.isSalty() - недоступно, т.к работает с одним уровнем дикорирования
+    //  withChocolate.isSalty() - недоступно, т.к работает с одним уровнем декорирования
     }
 }

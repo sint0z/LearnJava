@@ -12,4 +12,8 @@ public class Hamster extends Rodent{
     
     }
 
+    @Override
+    public void speak() {
+        System.out.println("Hamster speak!");
+    }
 }

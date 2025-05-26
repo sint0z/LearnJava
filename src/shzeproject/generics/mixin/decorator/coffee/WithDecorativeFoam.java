@@ -1,6 +1,6 @@
-package shzeproject.generics.mixin.decorator;
+package shzeproject.generics.mixin.decorator.coffee;
 
-public class WithDecorativeFoam extends CoffeeDrink{
+public class WithDecorativeFoam extends CoffeeDrink {
     private int size;
 
     public WithDecorativeFoam(Coffee coffee) {

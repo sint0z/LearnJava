@@ -12,4 +12,8 @@ public class Rat extends Rodent {
     
     }
 
+    @Override
+    public void speak() {
+        System.out.println("Rat speak!");
+    }
 }

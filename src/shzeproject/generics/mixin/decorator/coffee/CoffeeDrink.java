@@ -1,6 +1,6 @@
-package shzeproject.generics.mixin.decorator;
+package shzeproject.generics.mixin.decorator.coffee;
 
-public class CoffeeDrink extends Coffee{
+public abstract class CoffeeDrink extends Coffee {
     protected Coffee coffee;
 
     public CoffeeDrink(Coffee coffee) {

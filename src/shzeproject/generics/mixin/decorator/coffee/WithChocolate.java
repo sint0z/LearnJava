@@ -1,6 +1,6 @@
-package shzeproject.generics.mixin.decorator;
+package shzeproject.generics.mixin.decorator.coffee;
 
-public class WithChocolate extends CoffeeDrink{
+public class WithChocolate extends CoffeeDrink {
     private String typeChocolate;
 
     public WithChocolate(Coffee coffee) {

@@ -1,6 +1,6 @@
-package shzeproject.generics.mixin.decorator;
+package shzeproject.generics.mixin.decorator.coffee;
 
-public class WithCaramel extends CoffeeDrink{
+public class WithCaramel extends CoffeeDrink {
     private boolean isSalty;
 
     public WithCaramel(Coffee coffee) {

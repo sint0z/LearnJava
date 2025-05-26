@@ -14,7 +14,10 @@ public class EgyptianMau extends Cat {
         }
     
     }
-    
-   
+
+    @Override
+    public void speak() {
+        System.out.println("EgyptianMau speak!");
+    }
 
 }

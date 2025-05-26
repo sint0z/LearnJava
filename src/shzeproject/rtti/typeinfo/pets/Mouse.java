@@ -13,4 +13,9 @@ public class Mouse extends Rodent {
         }
     
     }
+
+    @Override
+    public void speak() {
+        System.out.println("Mouse speak!");
+    }
 }

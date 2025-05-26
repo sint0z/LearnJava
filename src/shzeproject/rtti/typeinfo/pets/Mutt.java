@@ -14,4 +14,9 @@ public class Mutt extends Dog {
         }
 
     }
+
+    @Override
+    public void speak() {
+        System.out.println("Mutt speak!");
+    }
 }

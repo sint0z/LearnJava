@@ -1,4 +1,4 @@
-package shzeproject.generics.mixin.decorator;
+package shzeproject.generics.mixin.decorator.coffee;
 
 public class Coffee {
     private String name;
@@ -10,7 +10,6 @@ public class Coffee {
     public void setName(String name) {
         this.name = name;
     }
-
 
     public static void main(String[] args) {
         WithDecorativeFoam withDecorativeFoam = new WithDecorativeFoam(new WithChocolate(new Coffee()));

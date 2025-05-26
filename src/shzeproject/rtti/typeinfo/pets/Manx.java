@@ -9,7 +9,12 @@ public class Manx extends Cat {
         public Manx create() {
           return new Manx();
         }
-    
+
+
     }
 
+    @Override
+    public void speak() {
+        System.out.println("Manx speak!");
+    }
 }

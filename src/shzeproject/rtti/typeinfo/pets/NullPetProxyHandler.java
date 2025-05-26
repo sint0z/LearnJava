@@ -24,6 +24,11 @@ public class NullPetProxyHandler implements InvocationHandler {
             return getName();
         }
 
+        @Override
+        public void speak() {
+            System.out.println("Null speak!");
+        }
+
     }
 
     @Override
